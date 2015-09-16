@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>denCity</title>
+
+	<!-- Included Bootstrap CSS Files -->
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+	
+	<!-- Includes FontAwesome -->
+	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css" />
+
+	<!-- Css -->	
+	<link rel="stylesheet" href="./css/style.css" />
+
+<style>
+.control-label {
+margin-right:8px;
+}
+.form-group{
+margin-bottom:8px;
+}
+</style>
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<button class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="/">denCity</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav" >
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Opciones <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="index.html">Busqueda</a></li>
+								<li><a href="login.html">Iniciar Sesion</a></li>
+								<li><a href="register.html">Registrarse</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form form-search pull-right">
+						<input id="Search" name="Search" type="text" placeholder="buscar" class="input-medium search-query">
+						<button type="submit" class="btn">Buscar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+		
+			<div class="span6" style="margin-left:30%">
+<div class="well"  >
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Registrarse</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Usuario</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="usuario" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">Contraseña</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Mail</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Nacimiento</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="dd/MM/yyyy" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-primary">Registrarse</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+	<hr />
+
+	<footer id="footer" class="vspace20" style="display:none">
+		<div class="container">
+			<div class="row">
+				<div class="span4">
+					<h4>Info</h4>
+					<ul class="nav nav-stacked">
+						<li><a href="#">Sell Conditions</a>
+						<li><a href="#">Shipping Costs</a>
+						<li><a href="#">Shipping Conditions</a>
+						<li><a href="#">Returns</a>
+						<li><a href="#">About Us</a>
+					</ul>
+				</div> 
+
+				<div class="span4">
+					<h4>Location and Contacts</h4>
+					<p><i class="icon-map-marker"></i>&nbsp;I do not Know Avenue, A City</p>
+					<p><i class="icon-phone"></i>&nbsp;Phone: 234 739.126.72</p>
+					<p><i class="icon-print"></i>&nbsp;Fax: 213 123.12.090</p>
+					<p><i class="icon-envelope"></i>&nbsp;Email: info@mydomain.com</p>
+					<p><i class="icon-globe"></i>&nbsp;Web: http://www.mydomain.com</p>
+				</div>
+
+				<div class="span4">
+					<h4>Newsletter</h4>
+					<p>Write you email to subscribe to our Newsletter service. Thanks!</p>
+					<form class="form-newsletter">
+						<div class="input-append">
+							<input type="email" class="span2" placeholder="your email">
+							<button type="submit" class="btn">Subscribe</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="span6">
+					<p>&copy; Copyright 2012.&nbsp;<a href="#">Privacy</a>&nbsp;&amp;&nbsp;<a href="#">Terms and Conditions</a></p>
+				</div>
+				<div class="span6">
+					<a class="pull-right" href="http://www.responsivewebmobile.com" target="_blank">credits by Responsive Web Mobile</a>
+				</div>
+			</div>
+		</div>
+	</footer>	
+
+	<script src="./js/jquery-1.10.0.min.js"></script>
+	<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+	<script src="./js/holder.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
